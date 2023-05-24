@@ -1,0 +1,30 @@
+.order-list {
+    display: none;
+}
+
+.active-tab-content {
+    display: block;
+}
+
+.table-order {
+    background-color: aliceblue;
+}
+
+.container__body__content__content .table-order thead {
+    background-color: yellow;
+}
+
+.container__body__content__content .table-order tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-order thead tr th {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.table-order tbody tr td {
+    /* border: 1px solid black; */
+    padding: 10px;
+}

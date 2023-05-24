@@ -1,0 +1,36 @@
+.category-list {
+    display: none;
+}
+
+.active-tab-content {
+    display: block;
+}
+
+.container__body__content__content .category-list-table {
+    width: 70%;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+
+}
+
+.container__body__content__content .category-list-table thead {
+    background-color: yellow;
+}
+
+.container__body__content__content .category-list-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.category-list-table thead tr th {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+
+}
+
+.category-list-table tbody tr td {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+
+}

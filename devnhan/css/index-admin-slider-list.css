@@ -1,0 +1,40 @@
+.slider-list {
+    display: none;
+}
+
+.active-tab-content {
+    display: block;
+}
+
+.container__body__content__content .slider-list-table {
+    width: 70%;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+
+}
+
+.container__body__content__content .slider-list-table thead {
+    background-color: yellow;
+}
+
+.container__body__content__content .slider-list-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.slider-list-table thead tr th {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+
+}
+
+.slider-list-table tbody tr td {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+}
+
+.slider-img {
+    width: 200px;
+    height: 100px;
+}

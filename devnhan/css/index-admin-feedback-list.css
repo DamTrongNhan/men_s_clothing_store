@@ -1,0 +1,35 @@
+.feedback-list {
+    display: none;
+}
+
+.active-tab-content {
+    display: block;
+}
+
+.container__body__content__content .feedback {
+    width: 70%;
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+
+}
+
+.container__body__content__content .feedback thead {
+    background-color: yellow;
+}
+
+.container__body__content__content .feedback tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.feedback thead tr th {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+
+}
+
+.feedback tbody tr td {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 10px;
+}
